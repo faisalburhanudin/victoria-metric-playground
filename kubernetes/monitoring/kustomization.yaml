@@ -1,0 +1,7 @@
+namespace: monitoring
+resources:
+  - github.com/VictoriaMetrics/operator/config/default?ref=v0.39.0
+  - vmcluster.yaml
+images:
+  - name: victoriametrics/operator
+    newTag: v0.39.0
